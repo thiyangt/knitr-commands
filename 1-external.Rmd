@@ -1,0 +1,21 @@
+---
+title: "1-call external R scripts"
+author: "Thiyanga Talagala"
+date: "30 August 2017"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r cache=FALSE}
+knitr::read_chunk('1-foo.R')
+```
+
+The following two chunks are from the external R script `113-foo.R`:
+
+```{r test-a}
+```
+```{r test-b}
+```
