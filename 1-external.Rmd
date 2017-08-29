@@ -19,3 +19,5 @@ The following two chunks are from the external R script `113-foo.R`:
 ```
 ```{r test-b}
 ```
+```{r test-c}
+```

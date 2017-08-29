@@ -5,3 +5,8 @@ x = rnorm(10)
 # ---- test-b ----
 mean(x)
 sd(x)
+
+# ---- test-c ----
+set.seed(123)
+x <- rnorm(100)
+plot(x)
