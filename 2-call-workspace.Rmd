@@ -1,0 +1,27 @@
+---
+title: "2-callWORKSPACEmodel"
+author: "Thiyanga Talagala"
+date: "30 August 2017"
+output: pdf_document
+classoption: landscape
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Note: 
+
+The commands that I run on the console is saved in "2-call-workspace.R". 
+The answer to the problem is motivated from the example given in [stackoverflow question]("https://stackoverflow.com/questions/11155182/is-there-a-way-to-knitr-markdown-straight-out-of-your-workspace-using-rstudio")
+
+link is:https://stackoverflow.com/questions/11155182/is-there-a-way-to-knitr-markdown-straight-out-of-your-workspace-using-rstudio
+
+
+```{r}
+load("model.RData")
+```
+
+```{r}
+RegressionModel
+```
