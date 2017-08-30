@@ -10,3 +10,8 @@ sd(x)
 set.seed(123)
 x <- rnorm(100)
 plot(x)
+
+# ---- test-d ----
+data(iris)
+head(iris)
+RegressionModel <- lm(iris$Sepal.Length ~ iris$Sepal.Width)
