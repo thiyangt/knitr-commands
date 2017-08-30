@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 knitr::read_chunk('1-foo.R')
 ```
 
-The following two chunks are from the external R script `113-foo.R`:
+The following two chunks are from the external R script `1-foo.R`:
 
 ```{r test-a}
 ```
@@ -24,8 +24,12 @@ The following two chunks are from the external R script `113-foo.R`:
 ```{r test-d}
 ```
 
+
 ```{r}
 RegressionModel
 summary(RegressionModel)
 ```
 
+# Important: 
+
+read_chunk() only reads the source code (for future references); it does not evaluate code like source()
